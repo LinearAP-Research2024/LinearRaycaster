@@ -1,0 +1,80 @@
+Linear 1024 final time: 3.5557901859283447 s
+Top 3 lines
+#1: linearcaster\main.py:53: 8192.0 KiB
+    final = linearcaster_cpp.linear_raycast(
+#2: pydevd\pydevd.py:1298: 2.9 KiB
+    cache_key = (frame.f_code.co_firstlineno, original_filename, force_check_project_scope, frame.f_code)
+#3: pydevd\pydevd.py:1206: 2.7 KiB
+    cache_key = (frame.f_code.co_firstlineno, absolute_filename, frame.f_code)
+58 other: 21.9 KiB
+Total allocated size: 8219.4 KiB
+Siddon 1024 final time: 10.618027687072754 s
+Top 3 lines
+#1: linearcaster\main.py:67: 8192.1 KiB
+    final = linearcaster_cpp.siddon_raycast(
+#2: lib\linecache.py:137: 308.3 KiB
+    lines = fp.readlines()
+#3: pydevd\pydevd.py:1298: 5.5 KiB
+    cache_key = (frame.f_code.co_firstlineno, original_filename, force_check_project_scope, frame.f_code)  
+119 other: 53.8 KiB
+Total allocated size: 8559.6 KiB
+Linear 512 final time: 0.6020209789276123 s
+Top 3 lines
+#1: linearcaster\main.py:81: 2048.0 KiB
+    final = linearcaster_cpp.linear_raycast(
+#2: lib\linecache.py:137: 322.2 KiB
+    lines = fp.readlines()
+#3: lib\tracemalloc.py:67: 7.4 KiB
+    return (self.size, self.count, self.traceback)
+117 other: 59.0 KiB
+Total allocated size: 2436.6 KiB
+Siddon 512 final time: 2.7844769954681396 s
+Top 3 lines
+#1: linearcaster\main.py:95: 2048.0 KiB
+    final = linearcaster_cpp.siddon_raycast(
+#2: lib\linecache.py:137: 366.7 KiB
+    lines = fp.readlines()
+#3: lib\tracemalloc.py:67: 7.4 KiB
+    return (self.size, self.count, self.traceback)
+123 other: 64.7 KiB
+Total allocated size: 2486.7 KiB
+Linear 256 final time: 0.15700817108154297 s
+Top 3 lines
+#1: linearcaster\main.py:108: 512.0 KiB
+    final = linearcaster_cpp.linear_raycast(
+#2: lib\linecache.py:137: 366.7 KiB
+    lines = fp.readlines()
+#3: lib\tracemalloc.py:67: 7.7 KiB
+    return (self.size, self.count, self.traceback)
+119 other: 65.0 KiB
+Total allocated size: 951.4 KiB
+Siddon 256 final time: 0.7869720458984375 s
+Top 3 lines
+#1: linearcaster\main.py:122: 512.0 KiB
+    final = linearcaster_cpp.siddon_raycast(
+#2: lib\linecache.py:137: 366.7 KiB
+    lines = fp.readlines()
+#3: lib\tracemalloc.py:67: 7.6 KiB
+    return (self.size, self.count, self.traceback)
+122 other: 65.5 KiB
+Total allocated size: 951.8 KiB
+128 final time: 0.041887760162353516 s
+Top 3 lines
+#1: lib\linecache.py:137: 366.7 KiB
+    lines = fp.readlines()
+#2: linearcaster\main.py:135: 128.0 KiB
+    final = linearcaster_cpp.linear_raycast(
+#3: lib\tracemalloc.py:67: 7.6 KiB
+    return (self.size, self.count, self.traceback)
+121 other: 65.6 KiB
+Total allocated size: 567.9 KiB
+Siddon 128 final time: 0.1825413703918457 s
+Top 3 lines
+#1: lib\linecache.py:137: 366.7 KiB
+    lines = fp.readlines()
+#2: linearcaster\main.py:149: 128.0 KiB
+    final = linearcaster_cpp.siddon_raycast(
+#3: lib\tracemalloc.py:67: 7.6 KiB
+    return (self.size, self.count, self.traceback)
+121 other: 66.4 KiB
+Total allocated size: 568.6 KiB
