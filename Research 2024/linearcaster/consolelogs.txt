@@ -78,3 +78,10 @@ Top 3 lines
     return (self.size, self.count, self.traceback)
 121 other: 66.4 KiB
 Total allocated size: 568.6 KiB
+
+
+
+RMSE between siddon128.png and SheppLogan_Phantom.png: 3.6914736786996363
+RMSE between siddon256.png and SheppLogan_Phantom.png: 3.2481563914376577
+RMSE between siddon512.png and SheppLogan_Phantom.png: 3.0127065500702086
+RMSE between siddon1024.png and SheppLogan_Phantom.png: 2.8666268198067995

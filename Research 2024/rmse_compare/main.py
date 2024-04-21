@@ -28,18 +28,18 @@ def main(image_path1, image_path2):
 
 if __name__ == "__main__":
     # Example usage:
-    image_path1 = "recolor128.png"  # File path of first image
+    image_path1 = "siddon128.png"  # File path of first image
     image_path2 = "SheppLogan_Phantom.png"  # File path of second image
     main(image_path1, image_path2)
     
-    image_path1 = "recolor256.png"  # File path of first image
+    image_path1 = "siddon256.png"  # File path of first image
     image_path2 = "SheppLogan_Phantom.png"  # File path of second image
     main(image_path1, image_path2)
     
-    image_path1 = "recolor512.png"  # File path of first image
+    image_path1 = "siddon512.png"  # File path of first image
     image_path2 = "SheppLogan_Phantom.png"  # File path of second image
     main(image_path1, image_path2)
     
-    image_path1 = "recolor1024.png"  # File path of first image
+    image_path1 = "siddon1024.png"  # File path of first image
     image_path2 = "SheppLogan_Phantom.png"  # File path of second image
     main(image_path1, image_path2)
